@@ -13,8 +13,8 @@ let night = document.getElementById("change4");
 
 let party = document.getElementById("party");
 
-// timer
-function callme() {
+// image
+function image() {
   let time = new Date();
   let hours = time.getHours();
   //   let hours = 9;
@@ -33,6 +33,16 @@ function callme() {
     GM[0].innerText = "CLOSE YOUR EYES AND GO TO SLEEP";
     photo[0].style.backgroundImage = "url('./goodnight_image.jpg')";
   }
+}
+image();
+
+// timer
+function callme() {
+  let time = new Date();
+  let hours = time.getHours();
+  //   let hours = 9;
+  let mins = time.getMinutes();
+  let secs = time.getSeconds();
 
   if (hours > 12) {
     hours = hours - 12;
