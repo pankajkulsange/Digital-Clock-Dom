@@ -122,8 +122,8 @@ select option:hover {
   width: 300px;
   padding: 25px;
   position: absolute;
-  top: 65%;
-  left: 16%;
+  top: 54%;
+  left: 15.4%;
   font-weight: bolder;
 }
 
@@ -133,8 +133,8 @@ select option:hover {
   width: 120px;
   text-align: center;
   position: absolute;
-  top: 78%;
-  left: 16%;
+  top: 65%;
+  left: 15.5%;
   padding: 10px;
   color: #ffffff;
   background-image: linear-gradient(90deg, #8e53f0, #fc5eff);
@@ -155,8 +155,9 @@ select option:hover {
   padding: 5px;
   color: #f25cfe;
   position: absolute;
-  left: 26%;
-  top: 78%;
+  left: 24.5%;
+  top: 65%;
+
   background-color: #8e53f0;
 }
 
