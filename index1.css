@@ -107,14 +107,14 @@
 
   .breakfast {
     padding: 5px;
-    width: 290px;
+    width: 84%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .parent {
     height: 50% !important;
-    width: 304px !important;
+    width: 88% !important;
     top: 45%;
     left: 50%;
     transform: translateX(-50%);
@@ -123,7 +123,7 @@
 
   #morningimage {
     height: 30%;
-    width: 85%;
+    width: 89%;
     top: 99%;
     left: 50%;
     transform: translateX(-50%);
@@ -131,12 +131,13 @@
 
   .GM {
     top: 130%;
-    width: 73% !important;
+    width: 76.5% !important;
     left: 50%;
     transform: translateX(-50%);
   }
 
   .alarm {
+    width: 90%;
     top: 142%;
     left: 50%;
     transform: translateX(-50%);
@@ -146,7 +147,7 @@
     top: 150% !important;
     left: 50% !important;
     transform: translateX(-50%);
-    width: 225px;
+    width: 84%;
     padding: 10px;
   }
 }
